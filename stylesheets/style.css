@@ -72,3 +72,14 @@ li {
   stroke-dashoffset: 0;
 }
 
+.half-circle {
+    width: 101px;
+    height: 47px;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border: 2px solid gray;
+    border-bottom: 0;
+    position: relative;
+    top: 130px;
+}
+
