@@ -25,16 +25,6 @@ html, body {
   flex-direction: column;
 }
 
-.circle {
-	  border: 2px solid black;
-    background-color: #F9F6ED;
-    height: 200px;
-    width: 200px;
-    border-radius:50%;
-    display: flex;
-    align-items: center;
-}
-
 p {
 	text-align: center;
 	width: 100%
@@ -63,13 +53,22 @@ li {
 
 .container-links a {
   color: black;
-  
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
 }
 
 .container-links a:hover {
-  color: gray;
+  filter: drop-shadow(0 0 0.65rem green);
+}
+
+.another-circle {
+  stroke-dasharray: 227;
+  stroke-dashoffset: 227;
+  transition: stroke-dashoffset 0.85s linear;
+}
+
+.another-circle:hover {
+  stroke-dashoffset: 0;
 }
 
