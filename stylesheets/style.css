@@ -59,7 +59,7 @@ li {
 }
 
 .container-links a:hover {
-  filter: drop-shadow(0 0 0.65rem green);
+  filter: drop-shadow(0 0 0.75rem rgb(0, 96, 117));
 }
 
 .another-circle {
