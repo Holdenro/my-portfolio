@@ -72,14 +72,20 @@ li {
   stroke-dashoffset: 0;
 }
 
-.half-circle {
-    width: 101px;
-    height: 47px;
-    border-top-left-radius: 110px;
-    border-top-right-radius: 110px;
-    border: 2px solid gray;
-    border-bottom: 0;
-    position: relative;
-    top: 130px;
+#arc {
+  width: 259px;
+  height: 156px;
+  border: solid 1.0px #000;
+  border-color: black transparent transparent transparent;
+  border-radius: 51%/100% 100% 0 0;
+  position: fixed;
+  top: 535px;
+  border-top:2px dotted #000;
+  
 }
+
+#arc:hover {
+  color: gold;
+}
+
 
