@@ -53,6 +53,10 @@ nav ul li a {
   background-color:rgb(249, 246, 237);
 }
 
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
 .container-links {
 	display: flex;
 	align-items: center;
@@ -109,7 +113,19 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: move 1s infinite alternate;
 }
+
+@keyframes move {
+    0% {
+      transform: translateY(0px);
+    }
+
+    100% {
+      transform: translateY(17px);
+    }
+
+  }
 
 #arrow-down img:hover {
   cursor: pointer;
