@@ -31,7 +31,7 @@ body {
   margin-left: 20px;
 }
 
-p {
+header p {
 	text-align: center;
 	width: 100%;
 }
@@ -104,7 +104,7 @@ li {
   border: solid 1.0px #000;
   border-color: black transparent transparent transparent;
   border-radius: 51%/100% 100% 0 0;
-  position: fixed;
+  position: absolute;
   top: 525px;
   border-top:2px dotted #000;
 }
@@ -131,6 +131,10 @@ li {
   cursor: pointer;
 }
 
-
+#number p{
+  font-size: 700px;
+  color: #e8e8e8;
+  margin: 0;
+}
 
 
