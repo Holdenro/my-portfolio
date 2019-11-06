@@ -24,7 +24,6 @@ body {
 }
 
 .container-items{
-	display: flex;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -87,7 +86,7 @@ li {
 }
 
 .container-links a:hover {
-  filter: drop-shadow(0 0 0.75rem rgb(0, 96, 117));
+   color: #F9F6ED;
 }
 
 .another-circle {
@@ -133,8 +132,15 @@ li {
   cursor: pointer;
 }
 
+.container-items-sec-01 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
 #number p{
-  font-size: 700px;
+  font-size: 200px;
   color: #e8e8e8;
   margin: 0;
   z-index: -2;
