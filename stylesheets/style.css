@@ -141,6 +141,8 @@ li {
   display: flex;
   line-height: 1.1;
   flex-direction: column;
+  text-align: right;
+    margin-right: 10px;
 }
 
 #number-01 p{
@@ -150,13 +152,18 @@ li {
   z-index: -2;
   display: flex;
   text-decoration: underline;
-  text-decoration-color: #62fcb2;
+  text-decoration-color: #2a80e575;
 }
 
 .text-sec-01-block-01 {
   font-size: 15px;
   margin: 30px;
-  text-align: justify;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  line-height: 1.4;
+  min-width: auto;
+  max-width: auto;
 }
 
 .portrait {
@@ -166,11 +173,13 @@ li {
 }
 
 .portrait img{
-  height: 70%;
+  height: 60%;
   position: relative;
-  bottom: 30px;
-  border: 20px solid #e8e8e8; 
-  
+  border-radius: 25px;
+}
+
+.portrait img:hover {
+  transform: scale(1.2)
 }
 
 
