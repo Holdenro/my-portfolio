@@ -135,15 +135,38 @@ li {
 .container-items-sec-01 {
   height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: start;
 }
 
-#number p{
-  font-size: 200px;
-  color: #e8e8e8;
-  margin: 0;
-  z-index: -2;
+#number-01 {
+  display: flex;
+  line-height: 1.1;
+  flex-direction: column;
 }
+
+#number-01 p{
+  font-size: 150px;
+  color: #e8e8e8;
+  margin: 0px;
+  z-index: -2;
+  display: flex;
+}
+
+.text-sec-01-block-01 {
+  font-size: 16px;
+    margin: 30px;
+    text-align: justify;
+ 
+}
+
+.text-sec-01-block-02 {
+ font-size: 16px;
+    margin: 30px;
+    text-align: justify;
+}
+
+
+
 
 
