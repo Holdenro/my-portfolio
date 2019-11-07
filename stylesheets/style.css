@@ -135,8 +135,6 @@ li {
 .container-items-sec-01 {
   height: 100vh;
   display: flex;
-  flex-direction: row;
-  justify-content: start;
 }
 
 #number-01 {
@@ -151,20 +149,31 @@ li {
   margin: 0px;
   z-index: -2;
   display: flex;
+  text-decoration: underline;
+  text-decoration-color: #62fcb2;
 }
 
 .text-sec-01-block-01 {
-  font-size: 16px;
-    margin: 30px;
-    text-align: justify;
- 
+  font-size: 15px;
+  margin: 30px;
+  text-align: justify;
 }
 
-.text-sec-01-block-02 {
- font-size: 16px;
-    margin: 30px;
-    text-align: justify;
+.portrait {
+  margin: 18px;
+  display: flex;
+  align-items: center;
 }
+
+.portrait img{
+  height: 70%;
+  position: relative;
+  bottom: 30px;
+  border: 20px solid #e8e8e8; 
+  
+}
+
+
 
 
 
