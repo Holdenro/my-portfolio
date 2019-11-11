@@ -9,6 +9,10 @@ html, body {
     min-height: 100vh;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
 }
@@ -184,13 +188,13 @@ li {
 
 
 .portrait{
-    -webkit-animation: 3.2s ease 0s normal forwards 1 fadein;
+    -webkit-animation: 3.0s ease 0s normal forwards 1 fadein;
     animation: 3.2s ease 0s normal forwards 1 fadein;
 }
 
 @keyframes fadein{
     0% { opacity:0; }
-    66% { opacity:0; }
+    55% { opacity:0; }
     100% { opacity:1; }
 }
 
@@ -200,7 +204,24 @@ li {
     100% { opacity:1; }
 }
 
+.cards-project {
+  
+  background: green;
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+ 
+}
 
+.cards-project > img {
+
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+
+  
+
+}
 
 
 
