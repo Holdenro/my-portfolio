@@ -206,22 +206,71 @@ li {
 
 .cards-project {
   
-  background: green;
-  width: 500px;
-  height: 500px;
-  margin: 10px;
- 
+  background: #F9F6ED;
+  width: 350px;
+  height: 350px;
+  border: 1px solid black;
+  margin-bottom: 30px
 }
 
-.cards-project > img {
 
-  height: 200px;
+.cards-project p{
+
+  text-align: center;
+  font-size: 40px;
+  margin-top: 7px;
+  z-index: 0;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.card {
   width: 100%;
-  object-fit: cover;
-
-  
+  height: 100%;
+}
+.card-date {
+  background-color: #e9b59a;
+  color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  top: -50px;
+  left: 35px;
 
 }
+
+.card-date p {
+  text-align: center;
+  position: relative;
+  top: 30px;
+  font-size: 30px;
+}
+
+.card-title {
+  position: relative;
+  top: 50px;
+}
+
+
+
+.card-stack {
+  background-color: #F9F6ED;
+  color: black;
+  width: 200px;
+  height: 30px;
+  position: relative;
+  top: 190px;
+  left: 50px;
+  margin: 0 auto;
+
+}
+
+.card-stack p{
+  font-size: 15px
+}
+
+
 
 
 
