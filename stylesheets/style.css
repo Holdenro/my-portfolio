@@ -204,18 +204,19 @@ li {
     100% { opacity:1; }
 }
 
-.cards-project {
-  
+
+
+
+.card {
+  border: 1px solid black;
   background: #F9F6ED;
   width: 350px;
   height: 350px;
-  border: 1px solid black;
-  margin-bottom: 30px
+  display: inline-block;
+  margin: 20px;
 }
 
-
-.cards-project p{
-
+.card p {
   text-align: center;
   font-size: 40px;
   margin-top: 7px;
@@ -224,10 +225,6 @@ li {
   margin: 0;
 }
 
-.card {
-  width: 100%;
-  height: 100%;
-}
 .card-date {
   background-color: #e9b59a;
   color: white;
@@ -237,7 +234,6 @@ li {
   position: relative;
   top: -50px;
   left: 35px;
-
 }
 
 .card-date p {
@@ -252,18 +248,14 @@ li {
   top: 50px;
 }
 
-
-
 .card-stack {
   background-color: #F9F6ED;
   color: black;
-  width: 200px;
-  height: 30px;
   position: relative;
-  top: 190px;
-  left: 50px;
+  width: 70%;
+  top: 193px;
+  left: 30px;
   margin: 0 auto;
-
 }
 
 .card-stack p{
