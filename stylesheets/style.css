@@ -214,16 +214,9 @@ li {
   height: 350px;
   display: inline-block;
   margin: 20px;
+  z-index: 1;
 }
 
-.card p {
-  text-align: center;
-  font-size: 40px;
-  margin-top: 7px;
-  z-index: 0;
-  text-transform: capitalize;
-  margin: 0;
-}
 
 .card-date {
   background-color: #e9b59a;
@@ -234,18 +227,32 @@ li {
   position: relative;
   top: -50px;
   left: 35px;
+  display: inline-block;
 }
 
 .card-date p {
   text-align: center;
-  position: relative;
-  top: 30px;
-  font-size: 30px;
+  font-size: 25px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .card-title {
   position: relative;
-  top: 50px;
+  top: 60px;
+  z-index: 0;
+}
+
+.card-title p {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 7px;
+  z-index: 0;
+  text-transform: capitalize;
+  margin: 0;
 }
 
 .card-stack {
@@ -253,15 +260,20 @@ li {
   color: black;
   position: relative;
   width: 70%;
-  top: 193px;
-  left: 30px;
-  margin: 0 auto;
+  top: 190px;
+  left: 80px;
+  display: inline-block;
 }
 
 .card-stack p{
-  font-size: 15px
+  font-size: 15px;
+  text-align: center;
+  margin: auto;
 }
 
+.card:hover {
+  color: #e9b59a;
+}
 
 
 
