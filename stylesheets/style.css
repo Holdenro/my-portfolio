@@ -140,6 +140,14 @@ li {
   height: 100vh;
 }
 
+#green-box {
+  background-color: #A9F0D1;
+  width: 50%;
+  height: 100vh;
+  position: relative;
+  left : 50%;
+  overflow: hidden;
+}
 
 
 
