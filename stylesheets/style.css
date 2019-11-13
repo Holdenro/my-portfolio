@@ -138,49 +138,13 @@ li {
 
 .container-items-sec-01 {
   height: 100vh;
-  display: flex;
 }
 
-#number-01 {
-  display: flex;
-  line-height: 1.1;
-  flex-direction: column;
-  text-align: right;
-    margin-right: 10px;
-}
 
-#number-01 p{
-  font-size: 150px;
-  color: #e8e8e8;
-  margin: 0px;
-  z-index: -2;
-  display: flex;
-  text-decoration: underline;
-  text-decoration-color: #2a80e575;
-}
 
-.text-sec-01-block-01 {
-  font-size: 15px;
-  margin: 30px;
-  text-align: right;
-  display: flex;
-  align-items: center;
-  line-height: 1.4;
-  min-width: auto;
-  max-width: auto;
-}
 
-.portrait {
-  margin: 18px;
-  display: flex;
-  align-items: center;
-}
 
-.portrait img{
-  height: 60%;
-  position: relative;
-  border-radius: 25px;
-}
+
 
 .portrait img:hover {
   transform: scale(1.2)
