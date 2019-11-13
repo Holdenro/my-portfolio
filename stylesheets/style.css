@@ -205,74 +205,82 @@ li {
 }
 
 
+#number-02{
+  margin-bottom: 50px;
+}
 
+#number-02 p{
+  font-size: 100px;
+  position: relative;
+  bottom: 20px;
+  color: #e8e8e8;
+  text-align: center;
+  margin: 0px;
+  z-index: -2;
+  text-decoration: underline;
+  text-decoration-color: #2a80e575;
+}
+
+
+.container-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-gap:20px;
+}
 
 .card {
   border: 1px solid black;
   background: #F9F6ED;
-  width: 350px;
-  height: 350px;
+  height: 300px;
   display: inline-block;
   margin: 20px;
   z-index: 1;
 }
 
 
-.card-date {
-  background-color: #e9b59a;
-  color: white;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  position: relative;
-  top: -50px;
-  left: 35px;
-  display: inline-block;
-}
-
-.card-date p {
-  text-align: center;
-  font-size: 25px;
-  margin: 0;
+.card-date p{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding-top: 10px;
 }
 
 .card-title {
   position: relative;
-  top: 60px;
+  top: 140px;
   z-index: 0;
 }
 
 .card-title p {
   text-align: center;
-  font-size: 40px;
-  margin-top: 7px;
+  font-size: 30px;
+  font-weight: bolder;
   z-index: 0;
   text-transform: capitalize;
   margin: 0;
 }
 
 .card-stack {
-  background-color: #F9F6ED;
   color: black;
   position: relative;
-  width: 70%;
-  top: 190px;
-  left: 80px;
-  display: inline-block;
+  top: 230px;
+  margin-right: 15px;
 }
 
 .card-stack p{
   font-size: 15px;
-  text-align: center;
+  text-align: right;
   margin: auto;
 }
 
 .card:hover {
-  color: #e9b59a;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.12);
+  cursor: pointer;
+}
+
+.card-title > p:hover {
+  text-decoration: underline;
+  text-decoration-color: #2a80e575;
 }
 
 
