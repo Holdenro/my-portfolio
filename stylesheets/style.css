@@ -181,6 +181,7 @@ li {
     left: 315px;
     bottom: 170px;
     z-index: 1;
+    
 }
 
 @keyframes fadein{
@@ -197,27 +198,40 @@ li {
 
 .key-words{
   display: inline-block;
-  position: relative;
-  bottom: 370px;
-  left: 465px;
   color: white;
-  text-align: right;
+  margin-top: 110px;
+  margin-left: 110px;
+  z-index: 3;
 }
 
 .frame-img {
   border: 1px solid black;
    width: 799px;
    height: 388px;
-   position: relative;
    bottom: 536px;
    left: 354px;
    position: relative;
-   z-index: 10;
+   z-index: 1;
    display: inline-block;
 }
 
+.cream-block {
+  display: inline-block;
+  width: 120px;
+  height: 45px;
+  position: relative;
+  background-color: black;
+  bottom: 354px;
+}
 
-
+.green-background {
+  width: 60%;
+    height: 100vh;
+    background-color: #A9F0D1;
+    position: relative;
+    bottom: 1026px;
+    left: 529px;
+}
 
 #number-02{
   margin-bottom: 50px;
@@ -234,7 +248,6 @@ li {
   text-decoration: underline;
   text-decoration-color: #2a80e575;
 }
-
 
 .container-cards {
   display: grid;
