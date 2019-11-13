@@ -154,7 +154,7 @@ li {
   height: 200px;
   display: inline-block;
   position: relative;
-  top: 184px;
+  top: 160px;
 }
 
 #name {
@@ -163,7 +163,7 @@ li {
 }
 
 #job {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -176,10 +176,11 @@ li {
 .portrait{
     -webkit-animation: 3.0s ease 0s normal forwards 1 fadein;
     animation: 3.2s ease 0s normal forwards 1 fadein;
-    width: 1100px;
+    width: 1000px;
     position: relative;
     left: 315px;
-    bottom: 135px;
+    bottom: 170px;
+    z-index: 1;
 }
 
 @keyframes fadein{
@@ -193,6 +194,29 @@ li {
     66% { opacity:0; }
     100% { opacity:1; }
 }
+
+.key-words{
+  display: inline-block;
+  position: relative;
+  bottom: 370px;
+  left: 465px;
+  color: white;
+  text-align: right;
+}
+
+.frame-img {
+  border: 1px solid black;
+   width: 799px;
+   height: 388px;
+   position: relative;
+   bottom: 536px;
+   left: 354px;
+   position: relative;
+   z-index: 10;
+   display: inline-block;
+}
+
+
 
 
 #number-02{
