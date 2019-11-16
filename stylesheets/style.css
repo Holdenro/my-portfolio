@@ -151,7 +151,7 @@ li {
 
 .text-presentation {
   width: 300px;
-  height: 200px;
+  height: 240px;
   display: inline-block;
   position: relative;
   top: 160px;
@@ -159,13 +159,14 @@ li {
 }
 
 #name {
-  font-size: 30px;
+  font-size: 20px;
   margin: 0;
+  font-weight: lighter;
 }
 
 #job {
   font-size: 30px;
-  font-weight: bold;
+  font-weight: lighter;
 }
 
 #description {
@@ -197,31 +198,32 @@ li {
 }
 
 .img-port{
-  width: 786px;
+  width: 781px;
   height: 423px;
   object-fit: cover;
   position: relative;
   left: 20px;
   bottom: 7px;
+  z-index: 2;
 }
 
 .key-words{
   display: inline-block;
   color: black;
-  margin-top: 110px;
-  margin-left: 110px;
   z-index: 3;
   font-weight: lighter;
+  position: relative;
+  bottom: 758px;
+  right: 312px;
 }
 
 .frame-img {
   border: 1px solid black;
-  width: 786px;
-  height: 423px;
-  bottom: 563px;
-  left: 367px;
+  width: 768px;
+  height: 403px;
+  bottom: 542px;
+  left: 385px;
   position: relative;
-  z-index: 1;
   display: inline-block; 
 }
 
@@ -231,9 +233,10 @@ li {
   height: 45px;
   position: relative;
   background-color: #a9f0d1;
-  bottom: 363px;
   z-index: 4;
   right: 39px;
+  bottom: 591px;
+  left: 744px;
 }
 
 .green-background {
@@ -241,8 +244,9 @@ li {
     height: 100vh;
     background-color: #A9F0D1;
     position: relative;
-    bottom: 1092px;
+    bottom: 1148px;
     left: 529px;
+    z-index: -1;
 }
 
 #about-me {
@@ -253,7 +257,6 @@ li {
   text-transform: uppercase;
   font-weight: lighter;
   overflow: visible;
-
 }
 
 #number-02{
