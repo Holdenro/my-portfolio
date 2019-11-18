@@ -275,10 +275,17 @@ li {
   text-decoration-color: #2a80e575;
 }
 
+
+
 .container-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
   grid-gap:20px;
+}
+
+.container-cards {
+  position: relative;
+  top: 250px;
 }
 
 .card {
@@ -336,7 +343,50 @@ li {
   text-decoration-color: #2a80e575;
 }
 
+.frame-work {
+  border: 1px solid black;
+  width: 955px;
+  height: 403px;
+  position: relative;
+  display: inline-block; 
+  bottom: 305px;
+}
 
+.frame-work-salmon {
+  background-color: #fa807259;
+    width: 955px;
+    height: 403px;
+    position: relative;
+    display: inline-block;
+    bottom: 665px;
+    left: 46px;
+}
+
+.frame-work-salmon p {
+  padding: 40px 60px;
+  margin: 0;
+}
+
+.beige-block {
+  display: inline-block;
+  width: 214px;
+  height: 45px;
+  position: relative;
+  background-color: #f9f6ed;
+  z-index: 4;
+  left: 190px;
+  bottom: 24px;
+}
+
+.beige-block p{
+  font-size: 28px;
+  text-align: center;
+  margin-top: 37px;
+  margin: 5px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  overflow: visible;
+}
 
 
 
