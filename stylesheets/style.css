@@ -136,7 +136,7 @@ li {
   cursor: pointer;
 }
 
-.container-items-sec-01 {
+.container-items-sec {
   height: 100vh;
 }
 
@@ -422,7 +422,7 @@ li {
 
 }
 
-.text {
+.text-overlay{
   color: white;
   font-size: 20px;
   position: absolute;
@@ -432,4 +432,93 @@ li {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.img-resume {
+  object-fit: cover;
+  height: 480px;
+  width: auto;
+}
+
+#resume{
+  position: relative;
+}
+
+#item-sec-03 {
+  display: flex;
+  margin: auto;
+}
+
+.resume-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin: auto;
+}
+
+.frame-resume {
+  border: 1px solid black;
+  height: 480px;
+  width: 340px;
+  position: absolute;
+  bottom: 3%;
+  left: 13%;
+  z-index: -1;
+}
+
+.resume-description p {
+  width: 450px
+}
+
+.beige-block-2{
+  display: inline-block;
+  width: 234px;
+  height: 45px;
+  position: absolute;
+  bottom: 40%;
+  left: 32%;
+  transform: rotate(-90deg);
+  background-color: #f9f6ed;
+}
+
+.beige-block-2 p{
+  font-size: 28px;
+  text-align: center;
+  margin-top: 37px;
+  margin: 5px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  overflow: visible;
+}
+
+.button-dw-resume{
+  border: solid 1px black;
+  width: 130px;
+  height: 45px;
+  margin: auto;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.button-dw-resume p{
+  text-align: center;
+}
+
+.button-dw-resume a {
+  text-decoration: none;
+  color: black;
+  display: contents;
+}
+
+.button-dw-resume:hover{
+  background-color: #a9f0d1;
 }
