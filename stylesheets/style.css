@@ -422,7 +422,7 @@ li {
 
 }
 
-.text {
+.text-overlay{
   color: white;
   font-size: 20px;
   position: absolute;
@@ -432,4 +432,48 @@ li {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.img-resume {
+  object-fit: cover;
+  height: 480px;
+  width: auto;
+}
+
+#resume{
+  position: relative;
+}
+
+#item-sec-03 {
+  display: flex;
+  margin: auto;
+}
+
+.resume-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin: auto;
+}
+
+.frame-resume {
+  border: 1px solid black;
+  height: 480px;
+  width: 340px;
+  position: absolute;
+  bottom: 3%;
+  left: 13%;
+  z-index: -1;
+}
+
+.resume-description p {
+  width: 450px
 }
