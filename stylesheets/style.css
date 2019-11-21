@@ -344,11 +344,6 @@ li {
   cursor: pointer;
 }
 
-.card-title > p:hover {
-  text-decoration: underline;
-  text-decoration-color: #2a80e575;
-}
-
 .frame-work {
   border: 1px solid black;
   width: 955px;
@@ -521,4 +516,5 @@ li {
 
 .button-dw-resume:hover{
   background-color: #a9f0d1;
+  border: solid 1px #f9f6ed;
 }
