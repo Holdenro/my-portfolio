@@ -346,7 +346,6 @@ li {
 
 .card-title > p:hover {
   text-decoration: underline;
-  text-decoration-color: #2a80e575;
 }
 
 .frame-work {
@@ -521,4 +520,6 @@ li {
 
 .button-dw-resume:hover{
   background-color: #a9f0d1;
+  border: solid 1px #a9f0d1;
 }
+
