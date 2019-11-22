@@ -175,8 +175,7 @@ li {
 
 
 .portrait{
-    -webkit-animation: 3.0s ease 0s normal forwards 1 fadein;
-    animation: 3.2s ease 0s normal forwards 1 fadein;
+   
     width: 1000px;
     position: relative;
     left: 315px;
@@ -516,5 +515,7 @@ li {
 
 .button-dw-resume:hover{
   background-color: #a9f0d1;
-  border: solid 1px #f9f6ed;
+  border: solid 1px #a9f0d1;
 }
+
+
