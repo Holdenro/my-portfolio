@@ -343,10 +343,6 @@ li {
   cursor: pointer;
 }
 
-.card-title > p:hover {
-  text-decoration: underline;
-}
-
 .frame-work {
   border: 1px solid black;
   width: 955px;
@@ -521,4 +517,5 @@ li {
   background-color: #a9f0d1;
   border: solid 1px #a9f0d1;
 }
+
 
