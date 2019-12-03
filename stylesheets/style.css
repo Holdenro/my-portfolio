@@ -176,7 +176,7 @@ li {
 
 .portrait{
    
-    width: 1000px;
+    width: 838px;
     position: relative;
     left: 315px;
     bottom: 170px;
@@ -599,7 +599,89 @@ li {
   bottom: 80px;
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 1200px){
+
+  .container-items-sec{
+    width: 80%;
+    margin: auto;
+  }
+
+  .img-port{
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .frame-img{
+    width: 60%
+  }
+
+  .green-background{
+    bottom:1149px;
+    width:60%;
+    left:387px;
+  }
+
+  .green-block{
+    left: 575px;
+  }
+
+  .key-words{
+    right: 155px;
+  }
+
+}
+
+@media screen and (max-width: 1080px){
+
+  .container-items-sec{
+    width: 70%;
+    margin: auto;
+  }
+
+  .img-port{
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .frame-img{
+    width: 60%
+  }
+
+  .green-background{
+    bottom:1140px;
+    width:60%;
+    left: 388px;
+  }
+
+  .green-block{
+    left: 510px;
+    bottom: 594px;
+  }
+
+  .key-words{
+    right: 80px;
+  }
+
+
+@media screen and (max-width: 973px){
+
+  .key-words{
+    right: 50px;
+  }
+
+}
+
+@media screen and (max-width: 761px){
+    body{
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .container {
+      width: 95%;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
     
     .menu-navbar {
       display: block;
@@ -612,6 +694,59 @@ li {
       top: 601px;
     }
 
+    .container-item-sec {
+      display: flex;
+      flex-direction: column
+    }
+    
+    .text-presentation {
+      position: static;
+      height: 255px;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 21px;
+      display: block
+    }
 
+    .img-port {
+      position: static;
+      width: 391px;
+      height: 318px;
+    }
 
+    .portrait {
+      position: static;
+      width: 95%;
+      margin: 0 auto;
+    }
+
+    .frame-img {
+      position: relative;
+      height: 278px;
+      width: 368px;
+      bottom: 355px;
+      left: 0px;
+    }
+
+    .key-words {
+      right: 0px;
+      left: 70px;
+      bottom: 610px;
+    }
+
+    .green-background{
+    bottom:787px;
+    position: relative;
+    height: 278px;
+    width: 368px;
+    left: 0px;
+  }
+
+}
+
+@media screen and (max-width: 668px){
+
+  .green-background{
+    bottom: 833px;
+  }
 }
