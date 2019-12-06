@@ -15,9 +15,11 @@ html {
 
 body {
   min-height: 100vh;
+
+
 }
 
-.container {
+.container{
 	width: 100%;
   overflow: hidden; 
   padding-right: 15px;
@@ -750,3 +752,5 @@ li {
     bottom: 833px;
   }
 }
+
+*/
