@@ -17,7 +17,7 @@ body {
   min-height: 100vh;
 }
 
-.container {
+.container{
 	width: 100%;
   overflow: hidden; 
   padding-right: 15px;
@@ -631,7 +631,7 @@ li {
 
 }
 
-@media screen and (max-width: 1080px){
+/*@media screen and (max-width: 1080px){
 
   .container-items-sec{
     width: 70%;
@@ -750,3 +750,5 @@ li {
     bottom: 833px;
   }
 }
+
+*/
