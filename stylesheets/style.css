@@ -15,8 +15,6 @@ html {
 
 body {
   min-height: 100vh;
-
-
 }
 
 .container{
@@ -633,7 +631,7 @@ li {
 
 }
 
-@media screen and (max-width: 1080px){
+/*@media screen and (max-width: 1080px){
 
   .container-items-sec{
     width: 70%;
